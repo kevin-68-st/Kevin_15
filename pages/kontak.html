@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontak | Kevin</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="../index.html" class="brand">
+                <span class="brand-icon">&lt;/&gt;</span>
+                <span>Kevin<span class="brand-dot">.Dev</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+
+                <li>
+                    <a href="../index.html">
+                        🏠 Beranda
+                    </a>
+                </li>
+
+                <li>
+                    <a href="tentang.html">
+                        👤 Tentang Saya
+                    </a>
+                </li>
+
+                <li>
+                    <a href="jaringan.html">
+                        🌐 Jaringan Komputer
+                    </a>
+                </li>
+
+                <li>
+                    <a href="iot-arduino.html">
+                        🤖 IoT & Arduino
+                    </a>
+                </li>
+
+                <li>
+                    <a href="karya-proyek.html">
+                        💡 Galeri Proyek
+                    </a>
+                </li>
+
+                <li>
+                    <a href="kontak.html" class="active">
+                        📬 Kontak
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+        <section class="page-header">
+
+            <div class="container">
+
+                <p class="section-label">CONTACT</p>
+
+                <h1>📬 Hubungi Saya</h1>
+
+                <p>
+                    Kirim pertanyaan, saran, atau pesan melalui formulir
+                    berikut.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <div class="container contact-layout">
+
+
+                <!-- Contact Info -->
+                <aside class="contact-info">
+
+                    <p class="section-label">
+                        INFORMASI KONTAK
+                    </p>
+
+                    <h2>
+                        Mari Terhubung
+                    </h2>
+
+                    <p>
+                        Jika kamu ingin memberikan masukan atau bertanya
+                        mengenai proyek yang ada di portofolio ini,
+                        silakan gunakan informasi kontak berikut.
+                    </p>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            ✉️
+                        </div>
+
+                        <div>
+                            <span>Email</span>
+                            <strong>
+                                nama@email.com
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            🏫
+                        </div>
+
+                        <div>
+                            <span>Email Sekolah</span>
+                            <strong>
+                                siswa@sekolah.sch.id
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            📍
+                        </div>
+
+                        <div>
+                            <span>Lokasi</span>
+                            <strong>
+                                Nama Kota, Indonesia
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </aside>
+
+
+                <!-- Form -->
+                <section class="contact-form-wrapper">
+
+                    <form
+                        id="contactForm"
+                        class="contact-form"
+                    >
+
+                        <div class="form-group">
+
+                            <label for="nama">
+                                Nama Pengirim
+                            </label>
+
+                            <input
+                                type="text"
+                                id="nama"
+                                name="nama"
+                                placeholder="Masukkan nama kamu"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Alamat Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="nama@email.com"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="kategori">
+                                Kategori Pesan
+                            </label>
+
+                            <select
+                                id="kategori"
+                                name="kategori"
+                                required
+                            >
+
+                                <option value="">
+                                    -- Pilih kategori --
+                                </option>
+
+                                <option value="pertanyaan">
+                                    Pertanyaan
+                                </option>
+
+                                <option value="kolaborasi">
+                                    Kolaborasi
+                                </option>
+
+                                <option value="saran">
+                                    Saran
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="pesan">
+                                Pesan
+                            </label>
+
+                            <textarea
+                                id="pesan"
+                                name="pesan"
+                                rows="6"
+                                placeholder="Tuliskan pesan kamu..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary btn-full"
+                        >
+                            🚀 Kirim Pesan
+                        </button>
+
+
+                        <p
+                            id="formMessage"
+                            class="form-message"
+                        ></p>
+
+                    </form>
+
+                </section>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="../index.html" class="brand footer-brand">
+                    <span class="brand-icon">&lt;/&gt;</span>
+                    <span>Nama<span class="brand-dot">.Dev</span></span>
+                </a>
+
+                <p>
+                    Portofolio digital siswa kelas XII.
+                </p>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h3>Media Sosial</h3>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/" target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank">
+                        Instagram
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; <span id="currentYear"></span>
+                Kevin.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="../assets/js/script.js"></script>
+
+</body>
+</html>
